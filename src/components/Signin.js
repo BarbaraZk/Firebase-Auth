@@ -10,7 +10,7 @@ export default function Signin() {
 
   const[email, setEmail] = useState('');
   const[password, setPassword] = useState('');
-  const[ setError] = useState('');
+  const[error, setError] = useState('');
   const {signIn} = UserAuth();
   const navigate = useNavigate();
 

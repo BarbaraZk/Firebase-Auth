@@ -10,7 +10,7 @@ export default function Signup() {
 
   const[email, setEmail] = useState('');
   const[password, setPassword] = useState('');
-  const[ setError] = useState('');
+  const[error, setError] = useState('');
   const {createUser} = UserAuth();
   const navigate = useNavigate();
 
